@@ -12,7 +12,7 @@ export const authOptions: AuthOptions = {
     signIn: "/auth/signin",
   },
   callbacks: {
-    async session({ session, token }) {
+    async session({ session }) {
       return session;
     },
   },

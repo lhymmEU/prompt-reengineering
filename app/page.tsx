@@ -1,6 +1,5 @@
 "use client";
 
-import PromptEngineer from "@/app/components/PromptEngineer";
 import AuthButton from "@/app/components/AuthButton";
 
 export default function Home() {

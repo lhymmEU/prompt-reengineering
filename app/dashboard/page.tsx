@@ -6,7 +6,7 @@ import { useSession } from "next-auth/react";
 import PromptEngineer from "@/app/components/PromptEngineer";
 
 export default function Dashboard() {
-  const { data: session, status } = useSession();
+  const { status } = useSession();
   const router = useRouter();
   const [apiKey, setApiKey] = useState("");
   const [isKeySet, setIsKeySet] = useState(false);
